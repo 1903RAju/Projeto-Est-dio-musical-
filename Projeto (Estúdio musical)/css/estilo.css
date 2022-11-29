@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik & display=swap');
+
+*
+{
+	font-family: 'Rubik', sans-serif;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+		
+li 
+{
+	float: right;
+}
+		
+li a 
+{
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 35px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: rgb(100, 0, 0);
+}
+
+li a:active
+{
+	background-color: rgb(200, 0, 0);
+}
+
+body
+{
+	background: linear-gradient(rgb(100, 100, 100), rgb(0, 0, 0));
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+p
+{
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: justify;
+}
+
+h1, h3
+{
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+h2, h4
+{
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+label
+{
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	text-align: center;
+}
+
+.tabela
+{
+    margin-top: 5%;
+    width: 350px;
+    height: 250px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(100, 100, 100);
+    background-position: center;
+}
+
+.btnc
+{
+	background-color: rgb(100, 100, 100);
+	font-size: 25px;
+	color: rgb(0, 200, 255);
+	border: none;
+}
+
+input
+{
+	font-size: 25px;
+	width: 260px;
+}
+
+.vio
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/vio.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.bateria
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/bateria.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.vidconfc
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/videoconf.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.vidaulac
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/videoaula.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.vidaulab
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/videoaulab.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.vidconfb
+{
+    width: 400px;
+    height: 300px;
+	border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url('../img/videoconfb.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.btnf
+{
+	background-color: rgb(255, 255, 255);
+	padding: 5px 10px 5px 10px;
+	border: 2px solid rgb(0, 0, 0);
+	cursor: pointer;
+	transition: background .3s;
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+.btnf:hover
+{
+	background-color: rgb(100, 100, 100);
+}
+
+.btnf:active
+{
+	background-color: rgb(50, 50, 50);
+	color: rgb(255, 255, 255);
+}
+
+.modal
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: none;
+}
+
+.modal-content
+{
+	margin: 0 auto;
+	margin-top: 5%;
+	max-width: 600px;
+	background-color: rgb(255, 255, 255);
+	padding: 0px;
+	box-shadow: 0 0 2px rgb(50, 50, 50);
+}
+
+.modal-header, .modal-body, .modal-footer
+{
+	padding: 5px;
+}
+
+.modal-header
+{
+	background-color: rgb(100, 100, 100);
+}
+
+.modal-footer
+{
+	background-color: rgb(100, 100, 100);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>🎼MelodyManu🎶</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/simple-grid.css">
+        <script src="js/js.js"></script> 
+    </head>
+    <body>
+        <div class="row" style="background-color: rgb(125, 0, 0);">
+            <div class="col-12">
+                <ul>
+                    <img src="img/logotipo (estúdio musical).png" width="150px" height="60px" style="margin-left: 1%; margin-top: 1%;">
+                    <li style="background-color: rgb(100, 0, 0);"><a href="cadastro.html"><img src="img/user.png" width="40px" height="40px"></a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="curso.html">Aulas/Curso</a></li>
+                    <li><a href="index.html"><img src="img/casa.png" width="40px" height="40px"></a></li>
+                </ul>
+            </div>
+        </div>
+        <center>
+        <div class="tabela">
+            <h2>Realize seu cadastro</h2>
+            <label style="color: rgb(255, 255, 255);">E-mail:</label>
+            <br>
+            <input type="text" id="email" required="required">
+            <br><br>
+            <button class="btnf" onclick="openModal('csc')" style="float: left;">Criar conta</button>
+            <button class="btnf" onclick="openModal('asc')" style="float: right;">Seguinte</button>
+        </div>
+        </center>
+        <div id="csc" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Crie sua conta</h2>
+                </div>
+                <div class="modal-body">
+                    <center>
+                    <h3>Realize seu cadastro</h3>
+                    <label>E-mail:</label>
+                    <br>
+                    <input type="text" id="email">
+                    <br>
+                    <label>Crie a senha:</label>
+                    <br>
+                    <input type="text" id="senha">
+                    <br>
+                    <label>Confirme sua senha:</label>
+                    <br>
+                    <input type="password" id="senhac">
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button class="btnf" onclick="closeModal('csc')">Fechar</button>
+                    <button class="btnf" style="float: right;">Seguinte</button>
+                </div>
+            </div>
+        </div>
+        <div id="asc" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Acesse sua conta</h2>
+                </div>
+                <div class="modal-body">
+                    <center>
+                    <label>Digite sua senha:</label>
+                    <br>
+                    <input type="password" id="senha">
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button class="btnf" onclick="closeModal('asc')">Fechar</button>
+                    <button class="btnf" style="float: right;">Seguinte</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

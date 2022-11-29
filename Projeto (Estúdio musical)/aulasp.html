@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>🎼MelodyManu🎶</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/simple-grid.css">
+        <script src="js/js.js"></script>
+    </head>
+    <body>
+        <center>
+        <img src="img/logotipo2 (estúdio musical).png" width="200px" height="80px" style="margin-left: 1%; margin-top: 1%;">
+        </center>
+        <div class="container" style="margin-top: 5%;">
+            <div class="row">
+                <div class="col-6">
+                    <button class="vidaulab" onclick="openModal('vidab')"></button>
+                    <h4>Vídeoaula</h4>
+                </div>
+                <div class="col=6">
+                    <button class="vidconfb" onclick="openModal('vidcb')"></button>
+                    <h4>Videoconferência</h4>
+                </div>
+            </div>
+        </div>
+        <div id="vidab" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Aguarde</h2>
+                </div>
+                <div class="modal-body">
+                    <h1>Em programação</h1>
+                </div>
+                <div class="modal-footer">
+                    <button class="btnf" onclick="closeModal('vidab')">Fechar</button>
+                </div>
+            </div>
+        </div>
+        <div id="vidcb" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Aguarde</h2>
+                </div>
+                <div class="modal-body">
+                    <h1>Em programação</h1>
+                </div>
+                <div class="modal-footer">
+                    <button class="btnf" onclick="closeModal('vidcb')">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
